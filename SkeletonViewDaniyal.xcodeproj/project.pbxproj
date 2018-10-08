@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		017F84ED333BBBE6273A0C2E /* Pods_SkeletonViewDaniyal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56C2872A6ACE2881AC08EE9 /* Pods_SkeletonViewDaniyal.framework */; };
 		2E56C6DE215A57E80051839D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56C6DD215A57E80051839D /* AppDelegate.swift */; };
 		2E56C6E0215A57E80051839D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56C6DF215A57E80051839D /* ViewController.swift */; };
 		2E56C6E3215A57E80051839D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E56C6E1215A57E80051839D /* Main.storyboard */; };
 		2E56C6E5215A57E80051839D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E56C6E4215A57E80051839D /* Assets.xcassets */; };
 		2E56C6E8215A57E80051839D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E56C6E6215A57E80051839D /* LaunchScreen.storyboard */; };
+		2E56C6F1215A582B0051839D /* CellA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56C6EF215A582B0051839D /* CellA.swift */; };
+		2E56C6F2215A582B0051839D /* CellA.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E56C6F0215A582B0051839D /* CellA.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,11 @@
 		2E56C6E4215A57E80051839D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E56C6E7215A57E80051839D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E56C6E9215A57E80051839D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E56C6EF215A582B0051839D /* CellA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellA.swift; sourceTree = "<group>"; };
+		2E56C6F0215A582B0051839D /* CellA.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellA.xib; sourceTree = "<group>"; };
+		72B4447B937F154C86AED6DB /* Pods-SkeletonViewDaniyal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkeletonViewDaniyal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkeletonViewDaniyal/Pods-SkeletonViewDaniyal.debug.xcconfig"; sourceTree = "<group>"; };
+		B44768683E630309EDDDDF4A /* Pods-SkeletonViewDaniyal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkeletonViewDaniyal.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkeletonViewDaniyal/Pods-SkeletonViewDaniyal.release.xcconfig"; sourceTree = "<group>"; };
+		B56C2872A6ACE2881AC08EE9 /* Pods_SkeletonViewDaniyal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkeletonViewDaniyal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017F84ED333BBBE6273A0C2E /* Pods_SkeletonViewDaniyal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				2E56C6DC215A57E80051839D /* SkeletonViewDaniyal */,
 				2E56C6DB215A57E80051839D /* Products */,
+				C653BA725EAEDB8ADEFC0347 /* Pods */,
+				64B3CFFD93D2F8F1FCA6EF86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +71,27 @@
 				2E56C6E4215A57E80051839D /* Assets.xcassets */,
 				2E56C6E6215A57E80051839D /* LaunchScreen.storyboard */,
 				2E56C6E9215A57E80051839D /* Info.plist */,
+				2E56C6EF215A582B0051839D /* CellA.swift */,
+				2E56C6F0215A582B0051839D /* CellA.xib */,
 			);
 			path = SkeletonViewDaniyal;
+			sourceTree = "<group>";
+		};
+		64B3CFFD93D2F8F1FCA6EF86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B56C2872A6ACE2881AC08EE9 /* Pods_SkeletonViewDaniyal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C653BA725EAEDB8ADEFC0347 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72B4447B937F154C86AED6DB /* Pods-SkeletonViewDaniyal.debug.xcconfig */,
+				B44768683E630309EDDDDF4A /* Pods-SkeletonViewDaniyal.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E56C6EC215A57E80051839D /* Build configuration list for PBXNativeTarget "SkeletonViewDaniyal" */;
 			buildPhases = (
+				F78DB251237A85C57E0974F9 /* [CP] Check Pods Manifest.lock */,
 				2E56C6D6215A57E80051839D /* Sources */,
 				2E56C6D7215A57E80051839D /* Frameworks */,
 				2E56C6D8215A57E80051839D /* Resources */,
+				F9B79F5E53A4C67AD872B43C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,16 +157,57 @@
 				2E56C6E8215A57E80051839D /* LaunchScreen.storyboard in Resources */,
 				2E56C6E5215A57E80051839D /* Assets.xcassets in Resources */,
 				2E56C6E3215A57E80051839D /* Main.storyboard in Resources */,
+				2E56C6F2215A582B0051839D /* CellA.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F78DB251237A85C57E0974F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkeletonViewDaniyal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9B79F5E53A4C67AD872B43C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SkeletonViewDaniyal/Pods-SkeletonViewDaniyal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkeletonView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkeletonViewDaniyal/Pods-SkeletonViewDaniyal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2E56C6D6215A57E80051839D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E56C6F1215A582B0051839D /* CellA.swift in Sources */,
 				2E56C6E0215A57E80051839D /* ViewController.swift in Sources */,
 				2E56C6DE215A57E80051839D /* AppDelegate.swift in Sources */,
 			);
@@ -280,6 +353,7 @@
 		};
 		2E56C6ED215A57E80051839D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B4447B937F154C86AED6DB /* Pods-SkeletonViewDaniyal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +372,7 @@
 		};
 		2E56C6EE215A57E80051839D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44768683E630309EDDDDF4A /* Pods-SkeletonViewDaniyal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
